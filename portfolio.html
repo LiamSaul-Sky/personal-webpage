@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - [Your Name]</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liam Saul</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rakkas&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
+    <header class="headerContainer">
+      <h1>Liam Saul</h1>
       <nav>
         <ul>
           <li>
@@ -19,18 +26,43 @@
           <li>
             <a href="experience.html">Experience</a>
           </li>
-          <li>
-            <a href="portfolio.html" aria-current="page">Portfolio</a>
+          <li aria-current="page">
+            <a href="portfolio.html">Portfolio</a>
           </li>
         </ul>
       </nav>
     </header>
-    <main>
-      <h1>Portfolio</h1>
-      <!-- The meat and potatoes of your personal site, here you want to include the projects you’ve worked on. For each project you wish to showcase, you should include the name of your project, a brief description, a screenshot, and a link to where it lives on the web. Since we don’t have any projects to display yet, placeholder images/links/descriptions are completely fine. -->
+    <main class="content">
+      <div class="projectContainer">
+        <div class="project">
+          <h3>Project 1</h3>
+          <img src="images/projectimg.webp" alt="project image" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+            repellendus quod eveniet hic neque, assumenda labore impedit
+            reiciendis, fugiat culpa deserunt magni tempore officia totam iusto
+            rem quo at! Nisi?
+          </p>
+          <a href="">link</a>
+        </div>
+        <div class="project">
+          <h3>Project 2</h3>
+          <img src="images/projectimg.webp" alt="project image" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+            repellendus quod eveniet hic neque, assumenda labore impedit
+            reiciendis, fugiat culpa deserunt magni tempore officia totam iusto
+            rem quo at! Nisi?
+          </p>
+          <a href="">link</a>
+        </div>
+      </div>
+
+      <!-- This landing page is your first impression. You can include a photo, a mission statement, and something which defines you. Using a quote is a great idea, as well. -->
     </main>
     <footer>
-      <p>Copyright &copy; 2024 [Your Name]</p>
+      <p>Copyright &copy; 2024 Liam Saul</p>
+      <p>Contact: liam.saul@sky.uk</p>
     </footer>
     <script src="script.js"></script>
   </body>
