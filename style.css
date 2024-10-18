@@ -198,6 +198,13 @@ body{
   padding-right: 3%;
 }
 
+/* Mobile Screens Header */
+@media screen and (max-width: 550px) {
+  .headerContainer{
+    position: relative;
+  }
+}
+
 .content{
   display: flex;
   flex-direction: column;
