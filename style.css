@@ -188,7 +188,9 @@ body{
   margin : 0;
 }
 
-.headerContainer{
+
+@media screen and (min-width: 600px){
+  .headerContainer{
   position: fixed;
   display: flex;
   flex-direction: row;
@@ -196,10 +198,11 @@ body{
   align-items: center;
   padding-left: 3%;
   padding-right: 3%;
+  }
 }
 
 /* Mobile Screens Header */
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 599px) {
   .headerContainer{
     position: relative;
   }
